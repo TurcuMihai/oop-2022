@@ -52,5 +52,6 @@ int main()
     }
 
     printf("%d", rezultat);
+	fclose(fisier);
     return 0;
 }
