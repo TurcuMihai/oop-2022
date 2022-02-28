@@ -30,7 +30,7 @@ int main()
             if (propozitie[i - 1] != ' ')
             {
                 strncpy(v[++k], propozitie + p, q - p + 1);
-                v[k][strlen(v[k])] = NULL;
+                v[k][q-p+1] = NULL;
             }
 
         }
@@ -52,7 +52,7 @@ int main()
         if (propozitie[i - 1] != ' ')
         {
             strncpy(v[++k], propozitie + p, q - p + 1);
-            v[k][strlen(v[k])] = NULL;
+            v[k][q-p+1] = NULL;
         }
 
     }
